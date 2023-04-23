@@ -12,7 +12,7 @@ body {
   padding: 56px;
   width: 840px;
   height: 651px;
-  margin: 171px 0px 0px 300px;
+  margin: 171px auto 0px auto;
   border-radius: 24px 24px 200px 24px;
 }
 
