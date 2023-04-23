@@ -1,0 +1,90 @@
+body {
+  background: #f0f0f0;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+.div-body {
+  background: #ffffff;
+  padding: 56px;
+  width: 840px;
+  height: 651px;
+  margin: 171px 0px 0px 300px;
+  border-radius: 24px 24px 200px 24px;
+}
+
+.section-data-input {
+  /* border: 1px solid red; */
+}
+
+.label-day {
+  width: 37px;
+  height: 21px;
+  color: #716f6f;
+  font-family: Poppins-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #716f6f;
+}
+
+.label-month {
+  width: 67px;
+  height: 21px;
+  font-family: Poppins-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #716f6f;
+  margin-left: 210px;
+}
+
+.label-year {
+  width: 47px;
+  height: 21px;
+  font-family: Poppins-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #716f6f;
+  margin-left: 175px;
+}
+
+.input-day {
+  width: 160px;
+  height: 72px;
+  padding: 12px 24px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.input-month {
+  width: 160px;
+  height: 72px;
+  padding: 12px 24px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-left: 38px;
+}
+
+.input-year {
+  width: 160px;
+  height: 72px;
+  padding: 12px 24px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-left: 38px;
+}
