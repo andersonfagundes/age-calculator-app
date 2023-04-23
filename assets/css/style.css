@@ -31,7 +31,6 @@ body {
   line-height: 21px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: #716f6f;
 }
 
 .label-month {
@@ -62,29 +61,34 @@ body {
   margin-left: 175px;
 }
 
-.input-day {
+input[type='text'] {
+  font-family: 'Poppins-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
   width: 160px;
   height: 72px;
   padding: 12px 24px;
   border: 1px solid #dcdcdc;
   border-radius: 8px;
+  color: #151515;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #854dff;
+}
+
+.input-day {
   margin-top: 8px;
 }
 
 .input-month {
-  width: 160px;
-  height: 72px;
-  padding: 12px 24px;
-  border: 1px solid #dcdcdc;
-  border-radius: 8px;
   margin-left: 38px;
 }
 
 .input-year {
-  width: 160px;
-  height: 72px;
-  padding: 12px 24px;
-  border: 1px solid #dcdcdc;
-  border-radius: 8px;
   margin-left: 38px;
 }
