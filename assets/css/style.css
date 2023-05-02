@@ -99,5 +99,31 @@ hr {
 }
 
 .icon-arrow {
+  cursor: pointer;
   float: right;
+}
+
+.result {
+  margin-top: 42px;
+  padding: 40px 0 40px;
+}
+
+.purple-result {
+  font-family: Poppins-Bold;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 104px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  color: #854dff;
+}
+
+.black-words-result {
+  color: #151515;
+  font-family: Poppins-Bold;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 104px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
