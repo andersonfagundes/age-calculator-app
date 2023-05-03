@@ -7,6 +7,16 @@ body {
   src: url(../fonts/Poppins-Bold.ttf);
 }
 
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Italic;
+  src: url(../fonts/Poppins-Italic.ttf);
+}
+
 .div-body {
   background: #ffffff;
   padding: 56px;
@@ -126,4 +136,34 @@ hr {
   font-size: 104px;
   line-height: 110%;
   letter-spacing: -0.02em;
+}
+
+#span-valid-day {
+  color: #ff5959;
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+#span-valid-month {
+  color: #ff5959;
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21px;
+  margin: 8px 0 0 92px;
+  display: inline-block;
+}
+
+#span-valid-year {
+  color: #ff5959;
+  font-family: Poppins-Regular;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21px;
+  margin: 8px 0 0 69px;
+  display: inline-block;
 }
