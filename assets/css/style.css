@@ -138,32 +138,23 @@ hr {
   letter-spacing: -0.02em;
 }
 
-#span-valid-day {
+.span-valid {
   color: #ff5959;
   font-family: Poppins-Regular;
   font-weight: 400;
   font-style: italic;
   line-height: 21px;
+  display: inline-block;
+}
+
+.span-valid-day {
   margin-top: 8px;
-  display: inline-block;
 }
 
-#span-valid-month {
-  color: #ff5959;
-  font-family: Poppins-Regular;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 21px;
+.span-valid-month {
   margin: 8px 0 0 92px;
-  display: inline-block;
 }
 
-#span-valid-year {
-  color: #ff5959;
-  font-family: Poppins-Regular;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 21px;
+.span-valid-year {
   margin: 8px 0 0 69px;
-  display: inline-block;
 }
